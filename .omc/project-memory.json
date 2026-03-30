@@ -1,0 +1,144 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1774867429605,
+  "projectRoot": "D:\\Documents\\simsys\\ai_agent_edu_dev\\stock-supporters-frontend",
+  "techStack": {
+    "languages": [
+      {
+        "name": "JavaScript/TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "package.json"
+        ]
+      },
+      {
+        "name": "TypeScript",
+        "version": null,
+        "confidence": "high",
+        "markers": [
+          "tsconfig.json"
+        ]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "next",
+        "version": "16.1.6",
+        "category": "fullstack"
+      },
+      {
+        "name": "react",
+        "version": "19.2.3",
+        "category": "frontend"
+      },
+      {
+        "name": "react-dom",
+        "version": "19.2.3",
+        "category": "frontend"
+      }
+    ],
+    "packageManager": "npm",
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": "npm run build",
+    "testCommand": null,
+    "lintCommand": "npm run lint",
+    "devCommand": "npm run dev",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start",
+      "lint": "eslint"
+    }
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [
+      "app",
+      "public"
+    ],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "app": {
+      "path": "app",
+      "purpose": "Application code",
+      "fileCount": 4,
+      "lastAccessed": 1774867429479,
+      "keyFiles": [
+        "favicon.ico",
+        "globals.css",
+        "layout.tsx",
+        "page.tsx"
+      ]
+    },
+    "features": {
+      "path": "features",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774867429509,
+      "keyFiles": []
+    },
+    "infrastructure": {
+      "path": "infrastructure",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774867429510,
+      "keyFiles": []
+    },
+    "public": {
+      "path": "public",
+      "purpose": "Public files",
+      "fileCount": 5,
+      "lastAccessed": 1774867429510,
+      "keyFiles": [
+        "file.svg",
+        "globe.svg",
+        "next.svg",
+        "vercel.svg",
+        "window.svg"
+      ]
+    },
+    "ui": {
+      "path": "ui",
+      "purpose": null,
+      "fileCount": 0,
+      "lastAccessed": 1774867429511,
+      "keyFiles": []
+    },
+    "infrastructure\\config": {
+      "path": "infrastructure\\config",
+      "purpose": "Configuration files",
+      "fileCount": 1,
+      "lastAccessed": 1774867429514,
+      "keyFiles": [
+        "env.ts"
+      ]
+    },
+    "ui\\components": {
+      "path": "ui\\components",
+      "purpose": "UI components",
+      "fileCount": 2,
+      "lastAccessed": 1774867429515,
+      "keyFiles": [
+        "Navbar.tsx",
+        "TextField.tsx"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}
