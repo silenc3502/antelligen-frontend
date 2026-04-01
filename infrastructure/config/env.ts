@@ -8,6 +8,7 @@ function requireEnv(name: string, value: string | undefined): string {
 function validateEnv(): void {
   requireEnv("NEXT_PUBLIC_API_BASE_URL", process.env.NEXT_PUBLIC_API_BASE_URL);
   requireEnv("NEXT_PUBLIC_KAKAO_LOGIN_PATH", process.env.NEXT_PUBLIC_KAKAO_LOGIN_PATH);
+  requireEnv("NEXT_PUBLIC_AGENT_API_BASE_URL", process.env.NEXT_PUBLIC_AGENT_API_BASE_URL);
 }
 
 export const env = {
@@ -17,6 +18,10 @@ export const env = {
 
   get kakaoLoginPath(): string {
     return requireEnv("NEXT_PUBLIC_KAKAO_LOGIN_PATH", process.env.NEXT_PUBLIC_KAKAO_LOGIN_PATH);
+  },
+
+  get agentApiBaseUrl(): string {
+    return requireEnv("NEXT_PUBLIC_AGENT_API_BASE_URL", process.env.NEXT_PUBLIC_AGENT_API_BASE_URL);
   },
 
   validate: validateEnv,
